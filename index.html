@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Device Properties Example</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="STYLESHEET" type="text/css" href="style.css">
+    <script type="text/javascript" charset="utf-8" src="cordova-2.5.0.js"></script>
+	<script type="text/javascript" src="jquery1.9.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" charset="utf-8" src="common.js"></script>
+  </head>
+  <body>
+    <div id="map-canvas">Loading Map Please Wait...</div>
+	<div id="tool_box" class="tool_boxes" style="display:none;">
+		<div style="text-align:center;"><a href="javascript:void(0);" id="show_saved_places" onclick="return showPlaces();">Show Places</a></div>
+		<div id="places_list" style="text-align:center;"></div>
+		<div id="direction_guide" style="display:none;text-align:center;">
+			<button id="get_direction" onclick="return getDirection();">Get Direction</button>
+		</div>
+		<div style="text-align:center;padding-top:10px;"><a href="#" onclick="closeApp();">Exit</a></div>
+	</div>
+  </body>
+</html>

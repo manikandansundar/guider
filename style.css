@@ -1,0 +1,16 @@
+html, body, #map-canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.tool_boxes{
+	width:40%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:#fff;
+	overflow-y:scroll;
+}
+#places_list div{padding-top:10px;}
+#direction_guide{padding-top:10px;}
